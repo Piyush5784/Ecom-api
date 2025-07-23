@@ -1,0 +1,84 @@
+# Build results
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+*.log
+
+.vs
+
+# Rider project files
+.idea/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+Tests
+Migrations
+# Auto-generated files
+*.Generated.cs
+Generated_Code/
+
+# Visual Studio Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ASP.NET Identity / Secrets
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+secrets.json
+
+# EF Migrations (optional, keep if you want to version them)
+# Migrations/
+
+# Entity Framework scaffolded model snapshots
+**/*ContextModelSnapshot.cs
+
+# Dotnet CLI
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+*.nuspec
+*.psmdcp
+
+# Logs
+*.log
+logs/
+*.tlog
+
+# Coverage and test results
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# Publish artifacts
+publish/
+out/
+
+# SQL Server LocalDB
+*.mdf
+*.ldf
+
+# Resharper files
+_ReSharper*/
+*.DotSettings.user
+
+# Dump files
+*.dmp
+
+# Ignore static files output (optional)
+wwwroot/
